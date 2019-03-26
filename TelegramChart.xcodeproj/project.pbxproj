@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB86B5FE224A531D00757816 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B5F2224A531C00757816 /* Theme.swift */; };
+		DB86B5FF224A531D00757816 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B5F3224A531C00757816 /* Helpers.swift */; };
+		DB86B602224A531D00757816 /* Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B5F6224A531D00757816 /* Draw.swift */; };
+		DB86B603224A531D00757816 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B5F7224A531D00757816 /* Operators.swift */; };
+		DB86B604224A531D00757816 /* dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = DB86B5F8224A531D00757816 /* dataset.json */; };
+		DB86B605224A531D00757816 /* WorkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B5F9224A531D00757816 /* WorkItem.swift */; };
+		DB86B606224A531D00757816 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B5FA224A531D00757816 /* Math.swift */; };
+		DB86B624224A53D600757816 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B623224A53D600757816 /* UIColor + Ext.swift */; };
+		DB86B630224A54BC00757816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B62D224A54BC00757816 /* AppDelegate.swift */; };
+		DB86B631224A54BC00757816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B62E224A54BC00757816 /* ViewController.swift */; };
+		DB86B632224A54BC00757816 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB86B62F224A54BC00757816 /* Info.plist */; };
+		DB86B638224A54E600757816 /* ChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B633224A54E600757816 /* ChartTableViewCell.swift */; };
+		DB86B639224A54E600757816 /* GraphPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B634224A54E600757816 /* GraphPickerTableViewCell.swift */; };
+		DB86B63A224A54E600757816 /* ThemeSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B635224A54E600757816 /* ThemeSwitchTableViewCell.swift */; };
+		DB86B63B224A54E600757816 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B636224A54E600757816 /* HeaderView.swift */; };
+		DB86B63C224A54E600757816 /* ChartTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B637224A54E600757816 /* ChartTableView.swift */; };
+		DB86B63F224A54F700757816 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B63D224A54F700757816 /* Line.swift */; };
+		DB86B640224A54F700757816 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B63E224A54F700757816 /* Chart.swift */; };
+		DB86B642224A550700757816 /* ChartRangeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B641224A550700757816 /* ChartRangeSelector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB3A142A2236B08500651944 /* TelegramChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegramChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB86B5F2224A531C00757816 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DB86B5F3224A531C00757816 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		DB86B5F6224A531D00757816 /* Draw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw.swift; sourceTree = "<group>"; };
+		DB86B5F7224A531D00757816 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		DB86B5F8224A531D00757816 /* dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataset.json; sourceTree = "<group>"; };
+		DB86B5F9224A531D00757816 /* WorkItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkItem.swift; sourceTree = "<group>"; };
+		DB86B5FA224A531D00757816 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		DB86B623224A53D600757816 /* UIColor + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
+		DB86B62D224A54BC00757816 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		DB86B62E224A54BC00757816 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Application/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		DB86B62F224A54BC00757816 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Application/Info.plist; sourceTree = SOURCE_ROOT; };
+		DB86B633224A54E600757816 /* ChartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartTableViewCell.swift; path = ChartTableView/ChartTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		DB86B634224A54E600757816 /* GraphPickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphPickerTableViewCell.swift; path = ChartTableView/GraphPickerTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		DB86B635224A54E600757816 /* ThemeSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeSwitchTableViewCell.swift; path = ChartTableView/ThemeSwitchTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		DB86B636224A54E600757816 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = ChartTableView/HeaderView.swift; sourceTree = SOURCE_ROOT; };
+		DB86B637224A54E600757816 /* ChartTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartTableView.swift; path = ChartTableView/ChartTableView.swift; sourceTree = SOURCE_ROOT; };
+		DB86B63D224A54F700757816 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Line.swift; path = Model/Line.swift; sourceTree = SOURCE_ROOT; };
+		DB86B63E224A54F700757816 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chart.swift; path = Model/Chart.swift; sourceTree = SOURCE_ROOT; };
+		DB86B641224A550700757816 /* ChartRangeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartRangeSelector.swift; path = View/ChartRangeSelector.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3A14272236B08500651944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3A14212236B08500651944 = {
+			isa = PBXGroup;
+			children = (
+				DB86B62A224A542500757816 /* View */,
+				DB86B625224A540B00757816 /* Model */,
+				DB86B618224A53A800757816 /* ChartTableView */,
+				DB86B60F224A537400757816 /* Application */,
+				DB86B5F8224A531D00757816 /* dataset.json */,
+				DB86B5F6224A531D00757816 /* Draw.swift */,
+				DB86B5F3224A531C00757816 /* Helpers.swift */,
+				DB86B5FA224A531D00757816 /* Math.swift */,
+				DB86B623224A53D600757816 /* UIColor + Ext.swift */,
+				DB86B5F7224A531D00757816 /* Operators.swift */,
+				DB86B5F2224A531C00757816 /* Theme.swift */,
+				DB86B5F9224A531D00757816 /* WorkItem.swift */,
+				DB3A142B2236B08500651944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3A142B2236B08500651944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3A142A2236B08500651944 /* TelegramChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB86B60F224A537400757816 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DB86B62D224A54BC00757816 /* AppDelegate.swift */,
+				DB86B62F224A54BC00757816 /* Info.plist */,
+				DB86B62E224A54BC00757816 /* ViewController.swift */,
+			);
+			name = Application;
+			path = App;
+			sourceTree = "<group>";
+		};
+		DB86B618224A53A800757816 /* ChartTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DB86B637224A54E600757816 /* ChartTableView.swift */,
+				DB86B633224A54E600757816 /* ChartTableViewCell.swift */,
+				DB86B634224A54E600757816 /* GraphPickerTableViewCell.swift */,
+				DB86B636224A54E600757816 /* HeaderView.swift */,
+				DB86B635224A54E600757816 /* ThemeSwitchTableViewCell.swift */,
+			);
+			name = ChartTableView;
+			path = ChartTableView2;
+			sourceTree = "<group>";
+		};
+		DB86B625224A540B00757816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB86B63E224A54F700757816 /* Chart.swift */,
+				DB86B63D224A54F700757816 /* Line.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DB86B62A224A542500757816 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB86B641224A550700757816 /* ChartRangeSelector.swift */,
+			);
+			name = View;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3A14292236B08500651944 /* TelegramChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3A143C2236B08600651944 /* Build configuration list for PBXNativeTarget "TelegramChart" */;
+			buildPhases = (
+				DB3A14262236B08500651944 /* Sources */,
+				DB3A14272236B08500651944 /* Frameworks */,
+				DB3A14282236B08500651944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelegramChart;
+			productName = TelegramChart;
+			productReference = DB3A142A2236B08500651944 /* TelegramChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3A14222236B08500651944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ivan Serebryakov";
+				TargetAttributes = {
+					DB3A14292236B08500651944 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = DB3A14252236B08500651944 /* Build configuration list for PBXProject "TelegramChart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3A14212236B08500651944;
+			productRefGroup = DB3A142B2236B08500651944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3A14292236B08500651944 /* TelegramChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3A14282236B08500651944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB86B604224A531D00757816 /* dataset.json in Resources */,
+				DB86B632224A54BC00757816 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3A14262236B08500651944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB86B602224A531D00757816 /* Draw.swift in Sources */,
+				DB86B638224A54E600757816 /* ChartTableViewCell.swift in Sources */,
+				DB86B63F224A54F700757816 /* Line.swift in Sources */,
+				DB86B639224A54E600757816 /* GraphPickerTableViewCell.swift in Sources */,
+				DB86B63C224A54E600757816 /* ChartTableView.swift in Sources */,
+				DB86B605224A531D00757816 /* WorkItem.swift in Sources */,
+				DB86B603224A531D00757816 /* Operators.swift in Sources */,
+				DB86B5FE224A531D00757816 /* Theme.swift in Sources */,
+				DB86B642224A550700757816 /* ChartRangeSelector.swift in Sources */,
+				DB86B63A224A54E600757816 /* ThemeSwitchTableViewCell.swift in Sources */,
+				DB86B624224A53D600757816 /* UIColor + Ext.swift in Sources */,
+				DB86B631224A54BC00757816 /* ViewController.swift in Sources */,
+				DB86B5FF224A531D00757816 /* Helpers.swift in Sources */,
+				DB86B640224A54F700757816 /* Chart.swift in Sources */,
+				DB86B63B224A54E600757816 /* HeaderView.swift in Sources */,
+				DB86B606224A531D00757816 /* Math.swift in Sources */,
+				DB86B630224A54BC00757816 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB3A143A2236B08600651944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB3A143B2236B08600651944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3A143D2236B08600651944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4P6GGXQ9Y;
+				INFOPLIST_FILE = "$(SRCROOT)/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanserebryakov.TelegramChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3A143E2236B08600651944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4P6GGXQ9Y;
+				INFOPLIST_FILE = "$(SRCROOT)/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanserebryakov.TelegramChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3A14252236B08500651944 /* Build configuration list for PBXProject "TelegramChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3A143A2236B08600651944 /* Debug */,
+				DB3A143B2236B08600651944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3A143C2236B08600651944 /* Build configuration list for PBXNativeTarget "TelegramChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3A143D2236B08600651944 /* Debug */,
+				DB3A143E2236B08600651944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3A14222236B08500651944 /* Project object */;
+}
