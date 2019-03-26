@@ -17,7 +17,6 @@
 		DB86B624224A53D600757816 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B623224A53D600757816 /* UIColor + Ext.swift */; };
 		DB86B630224A54BC00757816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B62D224A54BC00757816 /* AppDelegate.swift */; };
 		DB86B631224A54BC00757816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B62E224A54BC00757816 /* ViewController.swift */; };
-		DB86B632224A54BC00757816 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB86B62F224A54BC00757816 /* Info.plist */; };
 		DB86B638224A54E600757816 /* ChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B633224A54E600757816 /* ChartTableViewCell.swift */; };
 		DB86B639224A54E600757816 /* GraphPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B634224A54E600757816 /* GraphPickerTableViewCell.swift */; };
 		DB86B63A224A54E600757816 /* ThemeSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86B635224A54E600757816 /* ThemeSwitchTableViewCell.swift */; };
@@ -96,8 +95,7 @@
 				DB86B62F224A54BC00757816 /* Info.plist */,
 				DB86B62E224A54BC00757816 /* ViewController.swift */,
 			);
-			name = Application;
-			path = App;
+			path = Application;
 			sourceTree = "<group>";
 		};
 		DB86B618224A53A800757816 /* ChartTableView */ = {
@@ -109,8 +107,7 @@
 				DB86B636224A54E600757816 /* HeaderView.swift */,
 				DB86B635224A54E600757816 /* ThemeSwitchTableViewCell.swift */,
 			);
-			name = ChartTableView;
-			path = ChartTableView2;
+			path = ChartTableView;
 			sourceTree = "<group>";
 		};
 		DB86B625224A540B00757816 /* Model */ = {
@@ -119,8 +116,7 @@
 				DB86B63E224A54F700757816 /* Chart.swift */,
 				DB86B63D224A54F700757816 /* Line.swift */,
 			);
-			name = Model;
-			path = "New Group";
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DB86B62A224A542500757816 /* View */ = {
@@ -128,8 +124,7 @@
 			children = (
 				DB86B641224A550700757816 /* ChartRangeSelector.swift */,
 			);
-			name = View;
-			path = "New Group1";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +187,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB86B604224A531D00757816 /* dataset.json in Resources */,
-				DB86B632224A54BC00757816 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
